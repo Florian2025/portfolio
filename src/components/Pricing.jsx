@@ -52,7 +52,7 @@ export const Pricing = () => {
                   <div key={id}> {feature} </div>
                 ))}
                 <div className="flex justify-center mt-5">
-                  <Button className="bg-white px-5 py-2 rounded m-2 text-[#0059F8]">
+                  <Button className="bg-white px-5 py-2 rounded m-2 text-[#162033]">
                     {price.amount === 0 ? "Get Started" : "Buy Now"}
                   </Button>
                 </div>
